@@ -1,10 +1,13 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends BaseDisc {
 
-    // TODO: Implement your custom interface.
+    private boolean educationalOrNot = false;
+    private boolean musicOrNot = false;
 
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
+    public CD() {
+        this.educationalOrNot = educationalOrNot;
+        this.musicOrNot = musicOrNot;
+    }
 
 }
